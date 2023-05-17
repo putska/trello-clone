@@ -3,7 +3,7 @@ import List from "./List";
 import { DragDropContext, Droppable } from "react-beautiful-dnd";
 import Head from "next/head";
 import { useAppContext } from "../lib/appState";
-import { buildUpdatedBoardDataModel } from "../pages/Boards/[slug]";
+import { buildUpdatedBoardDataModel } from "../pages/boards/[slug]";
 import { createListModel } from "../lib/helpers";
 
 const Board = (props) => {
