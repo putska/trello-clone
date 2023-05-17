@@ -11,7 +11,7 @@ import {
   uploadToS3Bucket,
   updateListModel,
 } from "../lib/helpers";
-import { buildUpdatedBoardDataModel } from "../pages/Boards/[slug]";
+import { buildUpdatedBoardDataModel } from "../pages/boards/[slug]";
 
 const List = (props) => {
   const context = useAppContext();

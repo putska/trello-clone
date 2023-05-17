@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Draggable } from "react-beautiful-dnd";
 
 import { updateCardModel, deleteCardModel } from "../lib/helpers";
-import { buildUpdatedBoardDataModel } from "../pages/Boards/[slug]";
+import { buildUpdatedBoardDataModel } from "../pages/boards/[slug]";
 
 const Card = (props) => {
   const context = useAppContext();
